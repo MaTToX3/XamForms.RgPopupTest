@@ -7,5 +7,6 @@ namespace RgPopupTest
 {
     public class View1ViewModel : BindableBase
     {
+        public string Test { get; set; } = "Hello from View Model";
     }
 }
