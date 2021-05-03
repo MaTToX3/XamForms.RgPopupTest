@@ -38,6 +38,10 @@
                             TextColor="Gray" />
                         <Switch x:Name="Switch" IsToggled="True" />
                     </StackLayout>
+                    <Entry />
+                    <Entry />
+                    <Entry />
+                    <Entry />
                     <ActivityIndicator IsRunning="True" Color="Gray" />
                     <Slider x:Name="Slider" Value="0.4" />
                     <ProgressBar BindingContext="{x:Reference Slider}" Progress="{Binding Path=Value}" />
