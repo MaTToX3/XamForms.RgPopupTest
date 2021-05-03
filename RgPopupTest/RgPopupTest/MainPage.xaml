@@ -19,7 +19,9 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        <Button Clicked="Button_Clicked" />
+        <Label Text="{Binding Test}" />
+        <Button Clicked="Button_Clicked" Text="Classic" />
+        <Button Text="Prism" Command="{Binding LaunchPopupCommand}" />
     </StackLayout>
 
 </ContentPage>
